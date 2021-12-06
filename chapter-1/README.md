@@ -1,8 +1,20 @@
-Lab: Source Code Management with Github
+Group lab work for code management
 
-----------------------------------------------------
-Github and Cloud9 setup using Personal Access Token:
------------------------------------------------------ 
+Group Information:
+1. Navya Sutari
+2. Bala Sai Myla
+
+GITHUB URL:
+https://github.com/NavyaSutari/spring-CIS5755.git
+
+Group Work:
+Bala Sai had created two python files. (One hour)
+Navya had created readme file.
+
+Project inroduction:
+We created a project that integrate the files from github to cloud9 and cloud9 to github.
+
+Major Steps:
 1. Login Github and Create a repository
 2. get familiar with account profile --> settings -->Developer Settings -->Personal Access Tokens 
 3. Click "Generate New Token" 
@@ -23,7 +35,7 @@ Github and Cloud9 setup using Personal Access Token:
 11. Change to the new directory
 12. Create python envionrment: python3 -m venv env
 13. To activate the envionrment: source env/bin/activate
-14. Create a python file named ex1-print.py
+14. Create a python file named example.py
 15. Edit the python file
   a. Open the file
   b. Enter a line of code
@@ -32,21 +44,21 @@ Github and Cloud9 setup using Personal Access Token:
 
 18. git add --all
 19. git status
-20. git commit -m "first python code"
+20. git commit -m "Example python file"
 21. git push
   a. github username:
   b. password: copy and paste the account access token
 22. check the changes by using: git log
 23. Go to Github repository to check the changes
-24. Go to Cloud9 and create a second python file: ex2-flask.py
+24. Go to Cloud9 and create a second python file: example2.py
 25. Edit the file by copy/paste the basic Flask code
 26. Save and Run the file
 27. In the terminal, install Flask package (library): python3 -m pip install flask
-28. In the terminal, run the file: python3 ex2-flask.py
+28. In the terminal, run the file: python3 example2-flask.py
 29. To view the app, go to Tools menu, select Preview --> Preview Running App
 30. To stop the service, press Ctrl + C
 31. In the git terminal, enter command step 17-21
-   a. change commit comment to "First Flask example"
+   a. change commit comment to "This is example2 with flask"
 
 30. Create an instruction markdown file for Chapter 1
    a. Edit the file by copy/paste this lab instructions
@@ -88,7 +100,7 @@ ssh-keygen -t rsa
 19. While keeping the current terminal window for project,  open a new terminal for git to manage the source code) 
 20. git add --all
 21. git status
-22. git commit -m "first python code"
+22. git commit -m "This is first python example"
 23. git push
   a. github username:
   b. password: copy and paste the account access token
